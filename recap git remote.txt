@@ -1,0 +1,18 @@
+===Remote===
+git remote add [name] [shh/http - url]
+git remote 
+git remote get-url [remote_name]
+git remote -v
+git remote rm [remote_name]
+
+===Push===
+git push --delete [name_remote] [branch_name]
+git push [name_remote] [name_branch]
+git push [name_remote] [name_branch]:[new_branch_name]
+git push --all
+
+===Fetch and Pull===
+git fetch 
+git fetch [remote_name] (if multi remote)
+git pull
+git pull [remote_name] (if multi remote)
